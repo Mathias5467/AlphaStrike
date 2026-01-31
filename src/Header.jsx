@@ -8,7 +8,7 @@ function Header() {
 
     return (
         <header>
-            <Link to="/">
+            <a href="/AlphaStrike">
                 <div className="logo-section">
                     <LogoIcon
                         className="logo-icon"
@@ -25,7 +25,7 @@ function Header() {
                         <p className="slogan">Strike them all</p>
                     </div>
                 </div>
-            </Link>
+            </a>
         </header>
     );
 }
